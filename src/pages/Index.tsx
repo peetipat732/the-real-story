@@ -22,9 +22,13 @@ const Index = () => {
       {/* Header */}
       <header className="relative overflow-hidden bg-gradient-to-br from-pastel-pink via-pastel-yellow to-pastel-blue py-16">
         <div className="container mx-auto px-4 text-center">
-          {/* Logo Placeholder */}
-          <div className="mx-auto mb-6 flex h-32 w-32 items-center justify-center rounded-full bg-card shadow-lg animate-scale-in">
-            <span className="text-5xl">🐻🧈</span>
+          {/* Logo */}
+          <div className="mx-auto mb-6 h-32 w-32 rounded-full overflow-hidden bg-card shadow-lg animate-scale-in">
+            <img
+              src="/butterbear.jpg"
+              alt="Butterbear"
+              className="h-full w-full object-cover"
+            />
           </div>
           
           <h1 className="mb-2 text-4xl font-bold text-foreground animate-fade-in md:text-5xl">
