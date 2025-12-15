@@ -38,10 +38,10 @@ const ProfileHankla = () => {
             {/* Student Info */}
             <div className="mb-6 text-center">
               <span className="inline-block rounded-full bg-pastel-blue/50 px-4 py-1 text-sm text-foreground">
-                รหัสนักศึกษา: XXXXXXXXXX
+                รหัสนักศึกษา: 640710923
               </span>
               <p className="mt-2 text-muted-foreground">
-                สาขา: [สาขาวิชา]
+                สาขา: วิทยาการข้อมูล ปี 5
               </p>
             </div>
 
