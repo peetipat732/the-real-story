@@ -56,7 +56,7 @@ const ProfileHankla = () => {
             <div className="mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <h2 className="mb-3 text-lg font-semibold text-foreground">เกี่ยวกับฉัน</h2>
               <p className="leading-relaxed text-muted-foreground">
-                สวัสดีครับผมนักศึกษาสาขาดาต้าไซน์แต่อยากเรียนวิชา Programimg Platform and Environment ด้วยเพราะคิดว่าในเทรนโลกปัจจุบันสกิลการ Vibe Code เป็นสิ่งที่สำคัญมากในด้าน IT สมัยนี้ และหวังว่าสกิลที่ได้จากวิชานี้จะสามารถต่อยอดอาชีพไปในอนาคต แล้ว
+                สวัสดีครับผมนักศึกษาสาขาดาต้าไซน์แต่อยากเรียนวิชา Programimg Platform and Environment ด้วยเพราะคิดว่าในเทรนโลกปัจจุบันสกิลการ Vibe Code เป็นสิ่งที่สำคัญมากในด้าน IT สมัยนี้ และหวังว่าสกิลที่ได้จากวิชานี้จะสามารถต่อยอดอาชีพไปในอนาคต
               </p>
             </div>
 
