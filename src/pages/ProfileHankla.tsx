@@ -69,28 +69,28 @@ const ProfileHankla = () => {
                   className="flex items-center gap-2 rounded-full bg-pastel-green px-4 py-2 text-sm font-medium text-foreground transition-all hover:shadow-md hover:-translate-y-1"
                 >
                   <Phone className="h-4 w-4" />
-                  LINE
+                  LINE:koonheroza
                 </a>
                 <a
                   href="#"
                   className="flex items-center gap-2 rounded-full bg-pastel-purple px-4 py-2 text-sm font-medium text-foreground transition-all hover:shadow-md hover:-translate-y-1"
                 >
                   <Instagram className="h-4 w-4" />
-                  Instagram
+                  Instagram:hero_hnkl
                 </a>
                 <a
                   href="#"
                   className="flex items-center gap-2 rounded-full bg-pastel-blue px-4 py-2 text-sm font-medium text-foreground transition-all hover:shadow-md hover:-translate-y-1"
                 >
                   <Github className="h-4 w-4" />
-                  GitHub
+                  GitHub:userhankla
                 </a>
                 <a
                   href="#"
                   className="flex items-center gap-2 rounded-full bg-pastel-yellow px-4 py-2 text-sm font-medium text-foreground transition-all hover:shadow-md hover:-translate-y-1"
                 >
                   <Mail className="h-4 w-4" />
-                  Email
+                  Email:rattana_h@silpakorn.edu
                 </a>
               </div>
             </div>
