@@ -17,7 +17,7 @@ const ProfileHankla = () => {
         </div>
         
         {/* Decorative Elements */}
-        <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-pastel-purple/30 blur-3xl" />
+        <div className="absolute -bottom-10 -left-10 h-40 w-40 rounded-full bg-pastel-purple/30 blur-3xl pointer-events-none" />
       </header>
 
       {/* Profile Content */}
@@ -26,8 +26,12 @@ const ProfileHankla = () => {
           {/* Profile Card */}
           <div className="rounded-3xl bg-card p-8 shadow-xl animate-fade-in">
             {/* Profile Picture */}
-            <div className="mx-auto mb-6 flex h-36 w-36 items-center justify-center rounded-full bg-pastel-blue shadow-lg animate-scale-in">
-              <User className="h-16 w-16 text-foreground/70" />
+            <div className="mx-auto mb-6 flex h-36 w-36 items-center justify-center rounded-full bg-pastel-blue shadow-lg animate-scale-in overflow-hidden">
+              <img
+                src="https://cdn.discordapp.com/attachments/1116256674961965096/1450027049791262730/Screenshot_2025-12-15-14-29-26-34_a23b203fd3aafc6dcb84e438dda678b6.jpg?ex=69410a6c&is=693fb8ec&hm=b62f7745d36c3a66aabbfbbd42029c3f1d8b9a01166d0774786bf6b989999ef8&"
+                alt="หาญกล้า รัตนะ"
+                className="h-full w-full object-cover"
+              />
             </div>
             
             {/* Name */}
@@ -52,9 +56,7 @@ const ProfileHankla = () => {
             <div className="mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <h2 className="mb-3 text-lg font-semibold text-foreground">เกี่ยวกับฉัน</h2>
               <p className="leading-relaxed text-muted-foreground">
-                สวัสดีครับ! ผมเป็นสมาชิกของกลุ่ม "หมีเนยตัวจริง" 
-                มีความสนใจในด้าน [ความสนใจ] และกำลังศึกษาเกี่ยวกับ [สิ่งที่กำลังเรียนรู้]
-                หวังว่าจะได้เรียนรู้และพัฒนาทักษะใหม่ๆ ผ่านโปรเจกต์นี้ครับ
+                สวัสดีครับผมนักศึกษาสาขาดาต้าไซน์แต่อยากเรียนวิชา Programimg Platform and Environment ด้วยเพราะคิดว่าในเทรนโลกปัจจุบันสกิลการ Vibe Code เป็นสิ่งที่สำคัญมากในด้าน IT สมัยนี้ และหวังว่าสกิลที่ได้จากวิชานี้จะสามารถต่อยอดอาชีพไปในอนาคต แล้ว
               </p>
             </div>
 
