@@ -38,10 +38,10 @@ const ProfilePeetipat = () => {
             {/* Student Info */}
             <div className="mb-6 text-center">
               <span className="inline-block rounded-full bg-pastel-pink/50 px-4 py-1 text-sm text-foreground">
-                รหัสนักศึกษา: XXXXXXXXXX
+                รหัสนักศึกษา: 640710732
               </span>
               <p className="mt-2 text-muted-foreground">
-                สาขา: [สาขาวิชา]
+                สาขา: [Information Technology]
               </p>
             </div>
 
