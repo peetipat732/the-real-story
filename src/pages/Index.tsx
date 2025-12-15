@@ -58,7 +58,7 @@ const Index = () => {
           </div>
           <div className="space-y-2 text-muted-foreground">
             <p><span className="font-medium text-foreground">วิชา:</span> Digital Platform</p>
-            <p><span className="font-medium text-foreground">อาจารย์ผู้สอน:</span> [ชื่ออาจารย์]</p>
+            <p><span className="font-medium text-foreground">อาจารย์ผู้สอน:</span> Nuttachot Promrit</p>
           </div>
         </div>
       </section>
