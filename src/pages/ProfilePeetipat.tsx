@@ -26,8 +26,12 @@ const ProfilePeetipat = () => {
           {/* Profile Card */}
           <div className="rounded-3xl bg-card p-8 shadow-xl animate-fade-in">
             {/* Profile Picture */}
-            <div className="mx-auto mb-6 flex h-36 w-36 items-center justify-center rounded-full bg-pastel-pink shadow-lg animate-scale-in">
-              <User className="h-16 w-16 text-foreground/70" />
+            <div className="mx-auto mb-6 h-36 w-36 rounded-full overflow-hidden shadow-lg animate-scale-in">
+              <img
+                src="/Peetipat.jpg"
+                alt="นายปีติภัทร ผู้ช่วยบำรุง"
+                className="h-full w-full object-cover"
+              />
             </div>
             
             {/* Name */}
