@@ -7,12 +7,15 @@ const members = [
     name: "นายปีติภัทร ผู้ช่วยบำรุง",
     role: "สมาชิก",
     color: "bg-pastel-pink",
+    image: "/Peetipat.jpg",
   },
   {
     id: "hankla",
     name: "นายหาญกล้า รัตนะ",
     role: "สมาชิก",
     color: "bg-pastel-blue",
+    image:
+      "https://cdn.discordapp.com/attachments/1116256674961965096/1450027049791262730/Screenshot_2025-12-15-14-29-26-34_a23b203fd3aafc6dcb84e438dda678b6.jpg?ex=69410a6c&is=693fb8ec&hm=b62f7745d36c3a66aabbfbbd42029c3f1d8b9a01166d0774786bf6b989999ef8&",
   },
 ];
 
@@ -89,8 +92,14 @@ const Index = () => {
               style={{ animationDelay: `${0.5 + index * 0.1}s` }}
             >
               <div className="rounded-2xl bg-card p-6 shadow-md transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
-                <div className={`mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-full ${member.color} transition-transform duration-300 group-hover:scale-110`}>
-                  <User className="h-10 w-10 text-foreground/70" />
+                <div className={`mx-auto mb-4 h-20 w-20 rounded-full overflow-hidden ${member.color} transition-transform duration-300 group-hover:scale-110`}>
+                  {member.image ? (
+                    <img src={member.image} alt={member.name} className="h-full w-full object-cover" />
+                  ) : (
+                    <div className="flex h-full w-full items-center justify-center">
+                      <User className="h-10 w-10 text-foreground/70" />
+                    </div>
+                  )}
                 </div>
                 <h3 className="text-center text-lg font-semibold text-foreground">
                   {member.name}
